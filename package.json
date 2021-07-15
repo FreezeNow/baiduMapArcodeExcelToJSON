@@ -1,0 +1,17 @@
+{
+  "name": "baidumaparcodeexceltojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.21.1",
+    "get-stream": "5.2.0",
+    "puppeteer": "10.1.0",
+    "xlsx": "0.17.0"
+  }
+}
