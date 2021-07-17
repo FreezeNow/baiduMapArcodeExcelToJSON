@@ -1,3 +1,6 @@
 /download
 /node_modules
 /package-lock.json
+/areacode.json
+/tranform.js
+/area.js
