@@ -84,7 +84,7 @@ axios.interceptors.response.use(
         const element = jsonData[i];
         tempMap[element.code_coun] = element;
       }
-      fs.writeFile('./arcode.json', JSON.stringify(Object.values(tempMap)), error => {
+      fs.writeFile('./areacode.json', JSON.stringify(Object.values(tempMap)), error => {
         if (error) {
           console.error(error);
         }
